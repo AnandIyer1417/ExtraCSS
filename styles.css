@@ -1,0 +1,32 @@
+div.child {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+}
+
+div.child:hover {
+  background-color: tomato;
+}
+
+input:focus {
+  background: orange !important;
+}
+
+div::selection {
+  background-color: palegreen;
+}
+
+li {
+  list-style: none;
+  font-size: 4rem;
+  position: relative;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
