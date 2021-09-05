@@ -25,22 +25,7 @@ div.ball {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   border-radius: 30%;
-}
-
-div.ball:nth-child(2) {
-  animation-delay: 2s;
-  animation-name: bounce;
-}
-div.ball:nth-child(3) {
-  animation-delay: 2.5s;
-}
-div.ball:nth-child(4) {
-  animation-delay: 3s;
-  animation-name: bounce;
-  animation-duration: 2s;
-}
-div.ball:nth-child(5) {
-  animation-delay: 3.5s;
+  animation: stylish-rotate 1s ease infinite;
 }
 
 @keyframes bounce {
