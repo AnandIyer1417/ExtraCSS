@@ -20,6 +20,8 @@ li {
   list-style: none;
   font-size: 4rem;
   position: relative;
+  width: 200px;
+  display: inline-block;
 }
 
 li::after {
@@ -29,4 +31,6 @@ li::after {
   height: 20px;
   border-radius: 50%;
   background-color: blueviolet;
+  right: 10px;
+  top: 30px;
 }
